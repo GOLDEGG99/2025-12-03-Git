@@ -10,6 +10,8 @@ AWWBActor::AWWBActor()
 void AWWBActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	UE_LOG(LogTemp, Warning, TEXT("I'm handsome!!"))
 }
 
 
