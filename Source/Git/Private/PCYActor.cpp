@@ -15,5 +15,6 @@ APCYActor::APCYActor()
 void APCYActor::BeginPlay()
 {
 	Super::BeginPlay();
+	UE_LOG(LogTemp, Log, TEXT("I was here. from JY"));
 }
 
