@@ -13,4 +13,7 @@ class GIT_API AJYActor : public AActor
 	
 public:	
 	AJYActor();
+
+protected:
+	virtual void BeginPlay() override;
 };
