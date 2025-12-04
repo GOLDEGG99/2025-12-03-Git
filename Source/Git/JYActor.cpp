@@ -12,7 +12,7 @@ void AJYActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("AJYActor has begun play."));
+	UE_LOG(LogTemp, Warning, TEXT("i'm go to home"));
 }
 
 
