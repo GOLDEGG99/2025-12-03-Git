@@ -13,7 +13,7 @@ ALHOActor::ALHOActor()
 	UE_LOG(LogTemp, Warning, TEXT("Target Acquisition: Confirmed"));
 	UE_LOG(LogTemp, Warning, TEXT("WARNING! This is not a drill"));
 	UE_LOG(LogTemp, Warning, TEXT("5min to launch"));
-	UL_LOG(LogTemp, Warning, TEXT("3min to launch"));
+	UE_LOG(LogTemp, Warning, TEXT("3min to launch"));
 	UE_LOG(LogTemp, Warning, TEXT("1min to launch"));
 	UE_LOG(LogTemp, Warning, TEXT("10 seconds to launch. launch sequence unstoppable"));
 	UE_LOG(LogTemp, Warning, TEXT("Launch in 5... 4... 3... 2... 1..."));
@@ -24,6 +24,8 @@ ALHOActor::ALHOActor()
 void ALHOActor::BeginPlay()
 {
 	Super::BeginPlay();
+
+	UE_LOG(LogTemp, Warning, TEXT("Nuclear Launch Officer Actor Begin Play"));
 	
 }
 
