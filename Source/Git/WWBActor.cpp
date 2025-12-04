@@ -11,7 +11,7 @@ void AWWBActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("I'm handsome!!"))
+	UE_LOG(LogTemp, Warning, TEXT("I was here. from JY"))
 }
 
 
